@@ -1,5 +1,79 @@
 body {
+  background-color: #f3f3f3;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+h1 {
+  color: #5d5656;
+  font-size: 44px;
+  margin: 15px;
+}
+
+h2 {
+  background-color: #eaeaea;
+  color: #899ede;
+  font-size: 56px;
+  margin: 0px 0px 30px 0px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.day-style .sun-img {
+  display: block;
+}
+
+.day-style .moon-img {
+  display: none;
+}
+
+.night-style .moon-img {
+  display: block;
+}
+
+.night-style .sun-img {
+  display: none;
+}
+
+.moon-img, .sun-img {
+  margin-top: 30px;
+  width: 250px;
+  height: auto;
+}
+
+.button {
+  border: none;
+  width: 500px;
+  height: 100px;
+  font-size: 30px;
+  margin: 5px 0px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.start-button {
+  background-color: #97d09e;
+  color: #f8fff9;
+}
+
+.start-button:hover {
+  background-color: #84b58b;
+}
+
+.stop-button {
+  background-color: #de2e55;
+  color: #ffedf1;
+}
+
+.stop-button:hover {
+  background-color: #ca2046;
 }
