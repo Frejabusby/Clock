@@ -39,7 +39,7 @@ class Clock extends React.Component {
   timeOfTheDay = () => {
     const hours = this.state.date.getHours()
     const container = document.getElementById("container")
-    if (hours < 20 && hours > 7) {
+    if (hours < 18 && hours > 6) {
       container.classList.toggle("day-style")
     } else {
       container.classList.toggle("night-style")
